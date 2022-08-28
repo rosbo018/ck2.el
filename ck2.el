@@ -49,3 +49,5 @@
   (set (make-local-variable 'font-lock-defaults) '(ck2-font-lock-keywords))
   (font-lock-mode)
   (font-lock-ensure (point-min) (point-max)))
+
+(provide 'ck2)
